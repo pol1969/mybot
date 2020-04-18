@@ -1,0 +1,15 @@
+[Unit]
+Description=MXBOT
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/home/mybot/loc_bot
+ExecStart=/usr/bin/python /home/pol/mybot/loc_bot/mxbot.py
+KillMode=process
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
+

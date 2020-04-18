@@ -1,0 +1,44 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+PRODUCTS	bot_samples.py	/^PRODUCTS = defaultdict(lambda: {})$/;"	v
+USER_STATE	bot_samples.py	/^USER_STATE = defaultdict(lambda: START)$/;"	v
+USER_STATE	mxbot.py	/^USER_STATE = defaultdict(lambda: START)$/;"	v
+bot	bot_samples.py	/^bot = telebot.TeleBot(token)$/;"	v
+bot	mxbot.py	/^bot = telebot.TeleBot(token)$/;"	v
+callback_handler	bot_samples.py	/^def callback_handler(callback_query):$/;"	f
+check_currency_value	bot_samples.py	/^def check_currency_value(text):$/;"	f
+closest_bank	bot_samples.py	/^def closest_bank(location):$/;"	f
+create_keyboard	bot_samples.py	/^def create_keyboard():$/;"	f
+currencies	bot_samples.py	/^currencies = ['евро', 'доллар']$/;"	v
+currency_in_message	bot_samples.py	/^def currency_in_message(message):$/;"	f
+db	mxbot.py	/^     db=0,$/;"	v
+decode_responses	mxbot.py	/^     decode_responses=True$/;"	v
+delete_location	mxbot.py	/^def delete_location(user_id):$/;"	f
+func	mxbot.py	/^    func=lambda message: get_state(message) == ADD_NAME)$/;"	v
+get_product	bot_samples.py	/^def get_product(user_id):$/;"	f
+get_state	bot_samples.py	/^def get_state(message):$/;"	f
+get_state	mxbot.py	/^def get_state(message):$/;"	f
+handle_confirmation	mxbot.py	/^def handle_confirmation(message):$/;"	f
+handle_currency	bot_samples.py	/^def handle_currency(message):$/;"	f
+handle_finish	mxbot.py	/^def handle_finish(message):$/;"	f
+handle_list	mxbot.py	/^def handle_list(message):$/;"	f
+handle_location	bot_samples.py	/^def handle_location(message):$/;"	f
+handle_location	mxbot.py	/^def handle_location(message):$/;"	f
+handle_message	bot_samples.py	/^def handle_message(message):$/;"	f
+handle_price	bot_samples.py	/^def handle_price(message):$/;"	f
+handle_title	bot_samples.py	/^def handle_title(message):$/;"	f
+handle_title	mxbot.py	/^def handle_title(message):$/;"	f
+host	mxbot.py	/^     host='localhost',$/;"	v
+port	mxbot.py	/^     port=6379,$/;"	v
+r	mxbot.py	/^r = redis.Redis($/;"	v
+token	bot_samples.py	/^token = os.environ.get('TOKEN')$/;"	v
+token	mxbot.py	/^token = '1085494489:AAHiNKZ_v5bSn1UJk5U3wEAsqmu0ZfJy6hE'$/;"	v
+update_product	bot_samples.py	/^def update_product(user_id, key, value):$/;"	f
+update_state	bot_samples.py	/^def update_state(message, state):$/;"	f
+update_state	mxbot.py	/^def update_state(message, state):$/;"	f
+write_coords_to_redis	mxbot.py	/^def write_coords_to_redis(user_id, location):$/;"	f
+write_title_to_redis	mxbot.py	/^def write_title_to_redis(message):$/;"	f
